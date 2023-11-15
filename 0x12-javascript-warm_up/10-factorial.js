@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//A script that computes and prints a factorial
+// A script that computes and prints a factorial
 const argv = parseInt(process.argv[2]);
 function Factorialize (num) {
   if ((Number.isNaN(num)) || (num === 1)) {
